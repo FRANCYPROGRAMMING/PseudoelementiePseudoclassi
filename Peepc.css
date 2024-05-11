@@ -5,9 +5,11 @@ blockquote {
 }
 blockquote:before {
     content: open-quote;
+	font-size: 2rem;
 }
 blockquote:after {
     content: close-quote;
+	font-size: 2rem;
 }
 
 a {
@@ -16,13 +18,13 @@ a {
 	transition: color 0.3s ease;
 }
 a:hover {
-	color: crimson;
+	color: darkblue;
 }
 a:visited {
-	color: darkorange;
+	color: purple;
 }
 a:active {
-    color: darkslateblue;
+    color: darkorange;
 }
 
 p:first-of-type::first-letter {
@@ -32,4 +34,5 @@ p:first-of-type::first-letter {
 	padding: 16px;
 	background-color: gold;
 	margin: 8px;
+	font-size: 2rem;
 }
